@@ -1,3 +1,5 @@
 # NextGen-IoT
 
 Code is not complete
+
+This system monitors the garbage bins and informs about the level of garbage collected in the garbage bins to a thingspeak channel. Also, moisture and temperature are collected through a humidity sensor and will be sent to the channel. The result will be shown in a web view with instructions to improve the quality of the compost. System uses ultrasonic sensors located with the bin’s lid to detect the garbage level and relate it with the garbage bins deepness. We also use weight sensors attached below the garbage bins to identify its weight. The advantage of this is that the garbage bin lifting weight can also be known by the owner. The system also uses ESP32, LCD screen and a buzzer. The LCD screen is used to display the status of the level and weight of garbage collected in the bins. Whereas a thingspeak channel to show the status to the user monitoring it. Also, the weight of the individual bins will be shown along with the level of the garbage bin. The LCD screen shows the status of the garbage level, moisture and temperature. The system puts on the buzzer when the level of garbage collected crosses the set limit.
